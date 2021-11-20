@@ -198,3 +198,12 @@ li{
 #retour{
     color: rgb(15, 15, 15);;
 }
+.fin{
+    border-top: white solid 2px;
+}
+aside ul li a:hover{
+    color: green;
+}
+aside a:visited{
+    color: rgb(121, 156, 121);
+}
