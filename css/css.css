@@ -1,1 +1,257 @@
-test
+body{
+    background-color: rgb(15, 15, 15);
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 105px;
+}
+nav{
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 25px;
+    border: 2px solid green;
+}
+nav:hover{
+    background-color: green ;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+   transition: 2s;
+   }
+main{
+    position: absolute;
+    top: 300px;
+    width: 50%;
+}
+nav:hover a.menu{
+    transition: 1.5s;
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 25px;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    color: white;    
+}
+a{
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 25px;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    color: green;
+}
+nav > div{
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    padding-bottom: 15px;
+    }
+
+.submenu > div{
+    padding-bottom: 3px;
+}
+#enjeux .submenu{
+    display: none ;
+}
+#enjeux{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#enjeux:hover .submenu{
+    transition: 1s max-height 0.3s;
+    border: red solid 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute;
+    display: block;
+    top: 35px;
+    background-color: white;
+    left: -125px;
+}
+nav:hover a{
+    font-size: 15px;
+}
+p {
+    color: white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    padding: 0px 30px;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    font-size: 25px;
+    text-indent: 20px;
+    line-height: 50px;
+}
+p:hover {
+    color: white;
+    border-left: 5px solid rgb(234, 0, 255);
+    border-right: 5px solid rgb(234, 0, 255);
+    padding: 0px 30px;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    font-size: 25px;
+    text-indent: 20px;
+    line-height: 50px;
+}
+h1{
+    color: white;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+}
+h3{color: white;
+    font-weight:lighter;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    font-size: 25px;
+    text-indent: 20px;
+    line-height: 50px;
+    margin-bottom: 100px;}
+#renforce{
+    background-color: white;
+    color: black;
+    display: inline;
+    padding: 0px 3px;
+    font-size: 30px;
+}
+
+/*body{
+    background-color: rgb(15, 15, 15);
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 105px;
+}
+nav{
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 25px;
+    border: 2px solid green;
+}
+nav:hover{
+    background-color: green ;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+   transition: 2s;
+   }
+main{
+    position: absolute;
+    top: 300px;
+    width: 50%;
+}
+nav:hover a.menu{
+    transition: 1.5s;
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 25px;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    color: white;    
+}
+a{
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 25px;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    color: green;
+}
+nav > div{
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    padding-bottom: 15px;
+    }
+
+.submenu > div{
+    padding-bottom: 3px;
+}
+#enjeux .submenu{
+    display: none ;
+}
+#enjeux{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#enjeux:hover .submenu{
+    transition: 1s max-height 0.3s;
+    border: red solid 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute;
+    display: block;
+    top: 35px;
+    background-color: white;
+    left: -125px;
+}
+nav:hover a{
+    font-size: 15px;
+}
+p {
+    color: white;
+}
+h1{
+    color: white;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+}
+h3{color: white;
+    font-weight:lighter;
+    font-family:'Bahnschrift Condensed', Arial, sans-serif;
+    font-size: 25px;
+    text-indent: 20px;
+    line-height: 50px;
+    margin-bottom: 100px;}
+#renforce{
+    background-color: white;
+    color: black;
+    display: inline;
+    padding: 0px 3px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
