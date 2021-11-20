@@ -1,119 +1,239 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Enjeux technologiques</title>
-		<link rel="stylesheet" type="text/css" href=""> <!-- lier css -->
-	</head>
 
-	<body> <!-- j'ai réécris le texte tel quel, si il y a des erreurs ou des trucs bizarres (il y en a) j'ai rien corrigé -->
-		<header>
-			<nav>
-				<div><a href="index.html" class="menu">Accueil</a></div>
-				<div id="enjeux">
-					<a href="Enjeux.html" class="menu">Enjeux</a>
-					<div class="submenu">
-						<div><a href="Technologie.html">Technologique</a></div>
-						<div><a href="Environnement.html">Environnementale</a></div>
-						<div><a href="Sécuritaire.html">Sécuritaire</a></div>
-					</div>
-				</div>
-				<div><a href="Acteur.html" class="menu">Acteur</a></div>
-			</nav>
-		</header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enjeux technologiques</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css"> <!-- lier css -->
+</head>
 
-		<main>
-			<article>
-				<p>L’ordinateur quantique offre énormément de possibilité dont personne ne pouvait se les imaginer. Nous allons voir dans cette page les changements qu’apportera ce calculateur quantique.</p>
+<body>
+    <span id="retour">r</span>
+    <!-- j'ai réécris le texte tel quel, si il y a des erreurs ou des trucs bizarres (il y en a) j'ai rien corrigé -->
+    <header>
+        <nav>
+            <div><a href="index.html" class="menu">Accueil</a></div>
+            <div id="enjeux">
+                <a href="Enjeux.html" class="menu">Enjeux</a>
+                <div class="submenu">
+                    <div><a href="Technologie.html">Technologique</a></div>
+                    <div><a href="Environnement.html">Environnementale</a></div>
+                    <div><a href="Sécuritaire.html">Sécuritaire</a></div>
+                </div>
+            </div>
+            <div><a href="Acteur.html" class="menu">Acteur</a></div>
+        </nav>
+    </header>
 
-				<h2>1) Vos données bancaires dévoilées ?</h2> <!-- possiblement remplacer les 1) et ● avec qqc de plus propre -->
+    <main>
+        <article>
+            <p>L’ordinateur quantique offre énormément de possibilité dont personne ne pouvait se les imaginer. Nous
+                allons voir dans cette page les changements qu’apportera ce calculateur quantique et dans quels domaines
+                il pourrait remplacer l'ordinateur classique.</p>
 
-				<h3>● Le chiffrement des données vaincu</h3>
+            <h1>Vos données bancaires dévoilées ?</h1>
+            <!-- possiblement remplacer les 1) et ● avec qqc de plus propre -->
 
-				<p>L’ordinateur quantique est capable de récupérer vos données bancaires ! En effet, lors d’une transaction, vos données bancaires sont envoyées sous forme de <span>crypto</span>, notamment grâce au <span>chiffrement RSA</span>. Seul le destinataire peut décrypter le message codé, à condition que les personnes malveillantes ne possèdent pas d’ordinateur quantique.</p> <!-- des balises span, strong, etc un peu partout pour mettre en évidence avec des classes ou id -->
+            <h2>Le chiffrement des données vaincu</h2>
 
-				<p>Chiffrement RSA</p> <!-- mettre en "légende" avec un id -->
-				<img src="" alt="Chiffrement RSA"> <!-- lier image -->
+            <p>L’ordinateur quantique est capable de récupérer vos données bancaires ! En effet, lors d’une transaction,
+                vos données bancaires sont envoyées sous forme de <span>crypto</span>, notamment grâce au
+                <span>chiffrement RSA</span>. Seul le destinataire peut décrypter le message codé, à condition que les
+                personnes malveillantes ne possèdent pas d’ordinateur quantique.</p>
+            <!-- des balises span, strong, etc un peu partout pour mettre en évidence avec des classes ou id -->
 
-				<p>Effectivement, avec un calculateur quantique, les personnes malveillantes n’auront qu’à récupérer le message chiffré et tester toutes les combinaisons possibles en un rien de temps jusqu’alors <span>impossibles</span> pour un ordinateur classique. De cette manière, ces personnes pourront également récupérer les sites que vous avez visités, vos photos personnelles, les discussions avec vos amis et bien plus encore…</p>
-				<p><strong>«</strong> En 2015, les chercheurs ont prédit qu'un ordinateur quantique aurait besoin d'un <span>milliard</span> de qubits pour déchiffrer le système RSA à 2 048 bits. Récemment, des études ont montré qu'un ordinateur avec seulement <span>20 millions</span> de qubits peut trouver la clé de chiffrement d’une donnée en <span>seulement 8 heures</span>. <strong>»</strong> <sup>[1]</sup></p>
+            <p>Chiffrement RSA</p> <!-- mettre en "légende" avec un id -->
+            <img src="" alt="Chiffrement RSA"> <!-- lier image -->
 
-				<h3>● Le nouveau chiffrement</h3>
+            <p>Effectivement, avec un calculateur quantique, les personnes malveillantes n’auront qu’à récupérer le
+                message chiffré et tester toutes les combinaisons possibles en un rien de temps jusqu’alors
+                <span>impossibles</span> pour un ordinateur classique. De cette manière, ces personnes pourront
+                également récupérer les sites que vous avez visités, vos photos personnelles, les discussions avec vos
+                amis et bien plus encore…</p>
+            <p><strong>«</strong> En 2015, les chercheurs ont prédit qu'un ordinateur quantique aurait besoin d'un
+                <span>milliard</span> de qubits pour déchiffrer le système RSA à 2 048 bits. Récemment, des études ont
+                montré qu'un ordinateur avec seulement <span>20 millions</span> de qubits peut trouver la clé de
+                chiffrement d’une donnée en <span>seulement 8 heures</span>. <strong>»</strong> <sup>[1]</sup></p>
 
-				<p>La Chine a trouvé la solution : c’est en 2016 qu’elle envoie un <span>satellite quantique</span> en orbite autour de la Terre et que le <span>chiffrement quantique</span> naît, un système de communication inviolable. Basé sur les propriétés de l’informatique quantique :</p>
+            <h2> Le nouveau chiffrement</h2>
 
-				<ul>
-					<li><strong>«</strong> délivrer des messages totalement indéchiffrables qu’aucun autre système ne pourrait décrypter <strong>»</strong><sup>[8]</sup></li>
-					<li><strong>«</strong> en cas de tentative le message s’autodétruit assurant ainsi une sécurité absolue des données. <strong>»</strong><sup>[8]</sup></li>
-				</ul>
+            <p>La Chine a trouvé la solution : c’est en 2016 qu’elle envoie un <span>satellite quantique</span> en
+                orbite autour de la Terre et que le <span>chiffrement quantique</span> naît, un système de communication
+                inviolable. Basé sur les propriétés de l’informatique quantique :</p>
 
-				<p>Le principe en est le suivant : les deux parties partagent une clé de chiffrement aléatoire constituée de photons respectivement intriqués (<strong>«</strong> photons qui forment un système lié, et présentent des états quantiques dépendant l'un de l'autre <strong>»</strong> <sup>[7]</sup>).</p>
-				<p>Cette clé est alors utilisée comme un masque jetable pour chiffrer leurs communications. Toute interception de la clé par une tierce personne est <span>détectable</span>, car les deux particules qui communiquent entre elles sont <span>intriquées</span>. Ainsi si une autre particule, en l’occurrence celui d’une tierce personne, entre en contact avec celles-ci l’équilibre sera perturbé amenant à l’autodestruction du message.</p>
+            <ul>
+                <li><strong>«</strong> délivrer des messages totalement indéchiffrables qu’aucun autre système ne
+                    pourrait décrypter <strong>»</strong><sup>[8]</sup></li>
+                <li><strong>«</strong> en cas de tentative le message s’autodétruit assurant ainsi une sécurité absolue
+                    des données. <strong>»</strong><sup>[8]</sup></li>
+            </ul>
 
-				<h2>2) L’ordinateur quantique une usine à médicaments</h2>
+            <p>Le principe en est le suivant : les deux parties partagent une clé de chiffrement aléatoire constituée de
+                photons respectivement intriqués (<strong>«</strong> photons qui forment un système lié, et présentent
+                des états quantiques dépendant l'un de l'autre <strong>»</strong> <sup>[7]</sup>).</p>
+            <p>Cette clé est alors utilisée comme un masque jetable pour chiffrer leurs communications. Toute
+                interception de la clé par une tierce personne est <span>détectable</span>, car les deux particules qui
+                communiquent entre elles sont <span>intriquées</span>. Ainsi si une autre particule, en l’occurrence
+                celui d’une tierce personne, entre en contact avec celles-ci l’équilibre sera perturbé amenant à
+                l’autodestruction du message.</p>
 
-				<p>Il existe tant de maladies auxquelles l’Homme n’a pas trouvé de remède, mais c’est sans compter l’arrivée de l’ordinateur quantique. <strong>«</strong> Actuellement, on ne sait pas comprendre <span>le fonctionnement exact d’une molécule</span> même la plus simple, on s’y rapproche avec l’ordinateur classique, mais l’ordinateur quantique pourrait alors résoudre ce problème. <strong>»</strong> <sup>[5]</sup></p>
-				<p>L'informatique quantique permet de réduire <span>considérablement</span> ces approximations grâce à sa possibilité de manipuler un grand nombre de variables <span>en même temps</span>, de sorte que : la simulation des molécules entre elles, la prédiction des énergies des molécules et bien plus encore soient <span>quasi parfait</span>. Ainsi créer des médicaments aux maladies dès lors <span>incurables</span>.</p>
+            <h1>L’ordinateur quantique une usine à médicaments</h1>>
 
-				<h2>3) Le calcul quantique un remède pour la planète !</h2>
+            <p>Il existe tant de maladies auxquelles l’Homme n’a pas trouvé de remède, mais c’est sans compter l’arrivée
+                de l’ordinateur quantique. <strong>«</strong> Actuellement, on ne sait pas comprendre <span>le
+                    fonctionnement exact d’une molécule</span> même la plus simple, on s’y rapproche avec l’ordinateur
+                classique, mais l’ordinateur quantique pourrait alors résoudre ce problème. <strong>»</strong>
+                <sup>[5]</sup></p>
+            <p>L'informatique quantique permet de réduire <span>considérablement</span> ces approximations grâce à sa
+                possibilité de manipuler un grand nombre de variables <span>en même temps</span>, de sorte que : la
+                simulation des molécules entre elles, la prédiction des énergies des molécules et bien plus encore
+                soient <span>quasi parfait</span>. Ainsi créer des médicaments aux maladies dès lors
+                <span>incurables</span>.</p>
 
-				<p>L’ordinateur quantique peut <span>réduire</span> la production de CO2 de deux manières : en consommant moins d’énergies et en réduisant le coût d’une production des plus polluante au <span>monde</span> !</p>
+            <h1> Le calcul quantique un remède pour la planète !</h1>
 
-				<h3>● Produire moins d’énergies</h3>
+            <p>L’ordinateur quantique peut <span>réduire</span> la production de CO2 de deux manières : en consommant
+                moins d’énergies et en réduisant le coût d’une production des plus polluante au <span>monde</span> !</p>
 
-				<p>De plus, le calcul quantique est <span>réversible</span>/, c’est-à-dire que l’on peut revenir en arrière si bon nous chante et sans perdre d’information en appliquant dans l’ordre inverse le calcul : <strong>«</strong> Le calcul est opéré dans le sens direct, puis après lecture du résultat, est « rembobiné » comme dans un film. Cette opération inverse réinitialise le registre d’entrée sans dissiper de chaleur, et permet de récupérer l’énergie dépensée pour réaliser le calcul. <strong>»</strong> <sup>[6]</sup></p>
+            <h1>Produire moins d’énergies</h1>
 
-				<h3>● La production d’engrais</h3>
+            <p>Les calculs sont moins complexes, demandent moins d’opérations physiques donc consomment moins d’énergie
+                à l’ordinateur quantique.
+                <br><br>De plus, le calcul quantique est <span>réversible</span>/, c’est-à-dire que l’on peut revenir en
+                arrière
+                si bon nous chante et sans perdre d’information en appliquant dans l’ordre inverse le calcul :
+                <strong>«</strong> Le calcul est opéré dans le sens direct, puis après lecture du résultat, est «
+                rembobiné » comme dans un film. Cette opération inverse réinitialise le registre d’entrée sans dissiper
+                de chaleur, et permet de récupérer l’énergie dépensée pour réaliser le calcul. <strong>»</strong>
+                <sup>[6]</sup></p>
 
-				<p>Pour produire de l’engrais, il faut fixer l’azote dans un environnement <span>à très haute pression et à très haute température</span>, coût du processus : 1 à 2 % de l’<span>énergie mondiale</span> annuelle !</p>
+            <h2>La production d’engrais</h2>
 
-				<img src="" alt="Illustration usine"> <!-- lier image -->
-				<p><strong>«</strong> Les chercheurs essayent depuis longtemps d’élaborer un catalyseur permettant la fixation de l’azote à température ambiante. Mais il faut, pour cela, être à même de représenter précisément les réactions chimiques. <strong>»</strong> <sup>[3]</sup> 
-				<p>Comme vu précédemment pour les médicaments, cette simulation est bien trop complexe pour un ordinateur classique mais possible pour l’ordinateur quantique. Le résultat de la réduction est <span>de 80 à 90 %</span> de la quantité de dioxyde de carbone émise dans l’atmosphère !</p>
+            <p>Pour produire de l’engrais, il faut fixer l’azote dans un environnement <span>à très haute pression et à
+                    très haute température</span>, coût du processus : 1 à 2 % de l’<span>énergie mondiale</span>
+                annuelle !</p>
 
-				<h2>4) Mais qui bénéficie de ces enjeux technologiques ?</h2>
 
-				<p>Toutes les entreprises n'ont pas l’obligation de s’approprier le quantique, mais dans certains domaines, les algorithmes quantiques devraient générer <span>une grande valeur</span>, et leur nom ressortent souvent. Ce sont les secteurs <span>pharmaceutique, bancaire, technologique</span> (automobile, avion...)et bien autre encore...</p>
+            <p><strong>«</strong> Les chercheurs essayent depuis longtemps d’élaborer un catalyseur permettant la
+                fixation de l’azote à température ambiante. Mais il faut, pour cela, être à même de représenter
+                précisément les réactions chimiques. <strong>»</strong> <sup>[3]</sup>
+                <p>Comme vu précédemment pour les médicaments, cette simulation est bien trop complexe pour un
+                    ordinateur classique mais possible pour l’ordinateur quantique. Le résultat de la réduction est
+                    <span>de 80 à 90 %</span> de la quantité de dioxyde de carbone émise dans l’atmosphère !</p>
 
-				<h3>● Secteur Bancaire</h3>
+                <h1>Mais qui bénéficie de ces enjeux technologiques ?</h1>
 
-				<p>Goldman Sachs et JP Morgan sont deux exemples de mastodontes financiers qui investissent dans l'<span>informatique quantique</span>. En faisant de meilleurs choix <span>d'achat et de vente</span> d'actions, les algorithmes d'optimisation quantique peuvent favoriser l'optimisation des portefeuilles, permettant d'obtenir le maximum de rendement.</p>
+                <p>Toutes les entreprises n'ont pas l’obligation de s’approprier le quantique, mais dans certains
+                    domaines, les algorithmes quantiques devraient générer <span>une grande valeur</span>, et leur nom
+                    ressortent souvent. Ce sont les secteurs <span>pharmaceutique, bancaire, technologique</span>
+                    (automobile, avion...)et bien autre encore...</p>
 
-				<h3>● Secteur pharmaceutique</h3>
+                <h2>Secteur Bancaire</h2>
 
-				<p><strong>«</strong> Dans le secteur pharmaceutique, où le processus de découverte d'un médicament représente en moyenne <span>2 milliards de dollars sur 10 ans</span> et repose en grande partie sur <span>des essais et des erreurs</span>, les algorithmes de simulation quantique devraient également faire des vagues. <strong>»</strong> <sup>[9]</sup></p>
+                <p>Goldman Sachs et JP Morgan sont deux exemples de mastodontes financiers qui investissent dans
+                    l'<span>informatique quantique</span>. En faisant de meilleurs choix <span>d'achat et de
+                        vente</span> d'actions, les algorithmes d'optimisation quantique peuvent favoriser
+                    l'optimisation des portefeuilles, permettant d'obtenir le maximum de rendement.</p>
 
-				<h3>● Secteur technologique</h3>
+                <h2>Secteur pharmaceutique</h2>
 
-				<p>Les grands constructeurs automobiles accordent également une attention particulière à cette technologie, qui peut affecter l'industrie de plusieurs manières, <strong>«</strong> allant de la conception de <span>batteries plus efficaces</span> à l'<span>optimisation de la chaîne d'approvisionnement</span>, en passant par une <span>meilleure gestion du trafic et de la mobilité</span> <strong>»</strong> <sup>[9]</sup>.  Le premier à utiliser un algorithme quantique, c’est Volkswagen, qui a optimisé les itinéraires des bus en temps réel en évitant les bouchons.</p>
+                <p><strong>«</strong> Dans le secteur pharmaceutique, où le processus de découverte d'un médicament
+                    représente en moyenne <span>2 milliards de dollars sur 10 ans</span> et repose en grande partie sur
+                    <span>des essais et des erreurs</span>, les algorithmes de simulation quantique devraient également
+                    faire des vagues. <strong>»</strong> <sup>[9]</sup></p>
 
-				<h2>5) Et bien plus encore !</h2>
+                <h2>Secteur technologique</h2>
 
-				<p>Les changements qu’apportera cette nouvelle technologie qui est l’ordinateur quantique sont énormes voici quelque bonus :</p>
+                <p>Les grands constructeurs automobiles accordent également une attention particulière à cette
+                    technologie, qui peut affecter l'industrie de plusieurs manières, <strong>«</strong> allant de la
+                    conception de <span>batteries plus efficaces</span> à l'<span>optimisation de la chaîne
+                        d'approvisionnement</span>, en passant par une <span>meilleure gestion du trafic et de la
+                        mobilité</span> <strong>»</strong> <sup>[9]</sup>. Le premier à utiliser un algorithme
+                    quantique, c’est Volkswagen, qui a optimisé les itinéraires des bus en temps réel en évitant les
+                    bouchons.</p>
 
-				<h2>● L’arrivée des voitures volantes ?</h2>
+                <h1>Et bien plus encore !</h1>
 
-				<p>Avec une puissance de calcul hors normes, les projets technologiques verraient enfin le jour, notamment le train japonais Maglev qui roule à 600km/h. L’ordinateur quantique devrait faciliter le développement de ce type d’appareils, alors pourquoi pas les voitures volantes ?</p>
+                <p>Les changements qu’apportera cette nouvelle technologie qui est l’ordinateur quantique sont énormes
+                    voici quelque bonus :</p>
 
-				<h2>● Prévoir ses vacances sur 2 ans !</h2>
+                <h2>L’arrivée des voitures volantes ?</h2>
 
-				<p>La météo dépend d’énormément de facteurs : végétations, latitude, pression atmosphérique… Qu’un ordinateur classique ne pourrait pas prendre en compte, mais qu’un ordinateur classique pourrait ! Cela amènerait des météos beaucoup plus précises, sur une zone bien précise et surtout avec des mois voir des années d’avance.</p>
+                <p>Avec une puissance de calcul hors normes, les projets technologiques verraient enfin le jour,
+                    notamment le train japonais Maglev qui roule à 600km/h. L’ordinateur quantique devrait faciliter le
+                    développement de ce type d’appareils, alors pourquoi pas les voitures volantes ?</p>
 
-				<h2>● La fin des bouchons !</h2>
+                <h2>Prévoir ses vacances sur 2 ans !</h2>
 
-				<p>La gestion du trafic routier est basée sur un modèle mathématique de gestion du trafic, qui suppose le chemin de chaque personne pour déterminer le chemin qui sera le plus pris. Un défi que l’ordinateur quantique permettra de relever.</p>
-			</article>
+                <p>La météo dépend d’énormément de facteurs : végétations, latitude, pression atmosphérique… Qu’un
+                    ordinateur classique ne pourrait pas prendre en compte, mais qu’un ordinateur classique pourrait !
+                    Cela amènerait des météos beaucoup plus précises, sur une zone bien précise et surtout avec des mois
+                    voir des années d’avance.</p>
 
-			<aside>
-				<!-- un sommaire pour circuler facilement, comme sur wikipédia etc -->
-				<!-- bibliographie soit ici soit dans le footer (j'dirais plutôt dans le footer) -->
-			</aside>
-		</main>
+                <h2>La fin des bouchons !</h2>
 
-		<footer>
-			<!-- lien retour au début -->
-		</footer>
-	</body>
+                <p>La gestion du trafic routier est basée sur un modèle mathématique de gestion du trafic, qui suppose
+                    le chemin de chaque personne pour déterminer le chemin qui sera le plus pris. Un défi que
+                    l’ordinateur quantique permettra de relever.</p>
+        </article>
+
+        <aside>
+            <!-- un sommaire pour circuler facilement, comme sur wikipédia etc -->
+           <div class="fin"> <h1 >BIBLIOGRAPHIE :</h1> </div>
+        <ul>
+            <li>                                                                                                           <sup>[1]</sup>
+                P. RICHARD, « L’informatique quantique : une réelle menace pour la sécurité des connexions », Techniques de
+                l’Ingénieur, mai 05, 2020.
+                <a href="https://www.techniques-ingenieur.fr/actualite/articles/linformatique-quantique-une-reelle-menace-pour-la-securite-des-connexions-78692/">https://www.techniques-ingenieur.fr/actualite/articles/linformatique-quantique-une-reelle-menace-pour-la-securite-des-connexions-78692/</a>
+                .</li>
+
+            <li>                                                                                                                <sup>[2]</sup>
+                S. GAVOIS, « L’informatique quantique côté écologie, attractivité des chercheurs et ambition européenne »,
+                Next INpact, févr. 10, 2021(MAJ: .
+                <a href="https://www.nextinpact.com/article/45775/linformatique-quantique-cote-ecologie-attractivites-chercheurs-et-ambition-europeenne">https://www.nextinpact.com/article/45775/linformatique-quantique-cote-ecologie-attractivites-chercheurs-et-ambition-europeenne</a></li>
+
+            <li><sup>[3]</sup>
+                A. Cagan, « Ordinateur quantique : qu’est-ce que cela va changer concrètement ? », Journal du Geek, mars 21,
+                2018. <a href="https://www.journaldugeek.com/dossier/ordinateur-quantique-quest-va-changer-concretement/">https://www.journaldugeek.com/dossier/ordinateur-quantique-quest-va-changer-concretement/</a></li>
+
+            <li><sup>[4]</sup>
+                C. LESAFFRE, « Santé, climat, économie, nucléaire : à quoi serviront les ordinateurs quantiques ? »,
+                Europe1, janv. 21, 2021.
+                <a href="https://www.europe1.fr/technologies/sante-climat-economie-nucleaire-a-quoi-serviront-les-ordinateurs-quantiques-4020045">https://www.europe1.fr/technologies/sante-climat-economie-nucleaire-a-quoi-serviront-les-ordinateurs-quantiques-4020045</a></li>
+
+
+
+            <li><sup>[5]</sup>
+                Cité des sciences et de l’industrie, L’ordinateur quantique, rêve ou réalité ?, (oct. 16, 2019). Consulté
+                le: oct. 16, 2021. [En ligne Video]. Disponible sur:<a href="https://www.youtube.com/watch?v=aqq3sI9wHv0">https://www.youtube.com/watch?v=aqq3sI9wHv0</a> </li>
+
+            <li><sup>[6]</sup>
+                A. Auffèves, « Optimiser la consommation énergétique des calculateurs quantiques : un défi
+                interdisciplinaire », Reflets phys., no 69, p. 16-20, juin 2021,
+                doi:<a href="https://www.refletsdelaphysique.fr/articles/refdp/pdf/2021/02/refdp202169p16.pdf">https://www.refletsdelaphysique.fr/articles/refdp/pdf/2021/02/refdp202169p16.pdf</a> .</li>
+
+            <li><sup>[7]</sup>
+                G. Harrieta171, « Intrication quantique », Wikipédia. sept. 13, 2021. Consulté le: nov. 02, 2021. [En
+                ligne]. Disponible sur: <a href="https://fr.wikipedia.org/w/index.php?title=Intrication_quantique&oldid=186306353">https://fr.wikipedia.org/w/index.php?title=Intrication_quantique&oldid=186306353</a></li>
+
+            <li><sup>[8]</sup>
+                L’info du vrai, Ordinateurs quantiques : un enjeu technologique et géostratégique ?, (2021). Consulté le:
+                nov. 07, 2021. [En ligne Video]. Disponible sur: <a href="https://www.youtube.com/watch?v=Bp7uZPU8wC4">https://www.youtube.com/watch?v=Bp7uZPU8wC4</a></li>
+
+            <li> <sup>[9]</sup>
+                D. Leprince-Ringuet, « Tout comprendre à l’informatique quantique », ZDNet France, sept. 24, 2019.
+                <a href="https://www.zdnet.fr/pratique/tout-comprendre-a-l-informatique-quantique-39891035.htm">https://www.zdnet.fr/pratique/tout-comprendre-a-l-informatique-quantique-39891035.htm</a> (consulté le nov. 07,
+                2021).</li>
+        </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <a id="bouton" href="technologie.html#retour">Retour au début</a>
+        
+    </footer>
+</body>
+
 </html>
