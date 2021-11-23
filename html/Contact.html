@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>contact</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div><a href="index.html" class="menu">Accueil</a></div>
+            <div id="enjeux">
+                <a href="Enjeux.html" class="menu">Enjeux</a>
+                <div class="submenu">
+                    <div><a href="technologie.html">Technologique</a></div>
+                    <div><a href="Environnement.html">Environnementale</a></div>
+                    <div><a href="Sécuritaire.html">Sécuritaire</a></div>
+                </div>
+            </div>
+            <div><a href="Acteur.html" class="menu">Acteur</a></div>
+
+        </nav>
+    </header>
+    <main>
+        <form action="sendToMySecondYearInIut.php" method="post">
+            <form action="sendToMySecondYearInIut.php" method="get">
+                <fieldset>
+                    <legend>contactez-nous !</legend>
+                    <p><label for="surname">Nom*:</label>
+                        <input id="surname" name="uname" type="text" autofocus placeholder="Entrez votre Nom ici"
+                            required>
+                    </p>
+                    <p><label for="firstname">Prénom*:</label>
+                        <input id="firstname" name="firstname" type="text" placeholder="Entrez votre Prénom ici"
+                            required></p>
+                   <p> <label for="email">Email*:</label>
+                    <input id="email" name="email" type="email" placeholder="yourmail@domain.com"></p>
+                    <p><label id="codeP" for="codeP">Code Postal:</label>
+                        <input id="codeP" name="codeP" type="number" min="0" max="99999" required></p>
+
+                    <label for="Pays-select">Pays d'origine*</label>
+                    <select name="Pays" id="Pays-select">
+                        <option value="France">France</option>
+                        <option value="U.S.A">U.S.A</option>
+                        <option value="Angleterre">Angleterre</option>
+                        <option value="Belgique">Belgique</option>
+                        <option value="Suisse">Suisse</option>
+                        <option value="Maroc">Maroc</option>
+                    </select>
+                    <p>vous avez entendu parlé de nous via ?</p>
+                    <label for="Facebook">Facebook</label>
+                    <input id="Facebook" name="Réseaux" type="radio" value="Facebook" checked>
+                    <label for="Instagram">Instagram</label>
+                    <input id="Instagram" name="Réseaux" type="radio" value="Instagram" checked>
+                    <label for="Twitter">Twitter</label>
+                    <input id="Twitter" name="Réseaux" type="radio" value="Twitter" checked>
+                    <label for="Autre">Autre</label>
+                    <input id="Autre" name="Réseaux" type="radio" value="Autre" checked>
+                    <p><label id="date" for="RDV">Date à laquelle vous souhaitez être recontacté:</label>
+                        <input id="RDV" name="RDV" type="date" required></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Exprime toi !</legend>
+
+                    <p><label for="Message">Message</label></p>
+                    <textarea id="Message" name="Messsage" rows="10" cols="60%">
+                    Cher ...,
+                </textarea>
+                </fieldset>
+                <input id="send" type="submit" value="Envoyer">
+
+            </form>
+    </main>
+</body>
+
+</html>
