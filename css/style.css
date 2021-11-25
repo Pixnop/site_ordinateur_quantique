@@ -131,6 +131,7 @@ main > article > p{
     text-indent: 20px;
     line-height: 50px;
     margin-bottom: 100px;
+    text-align: justify;
 }
 
 li{
